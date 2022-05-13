@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lavanya"
+version = "1.0.0"
+readme = "README.md"
+description = "Upload an Audio file, and save it into your computer (UUID-based)."
+authors = ["Goutham Krishna K V <gauthamkrishna9991@live.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^22.3.0", allow-prereleases = true}
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
